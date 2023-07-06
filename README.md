@@ -48,7 +48,7 @@ Once the tools are intalled, their name can be autocompleted in the Terminal win
 
 ### KernTableBotox
 
-KernTableBotox is a command line tool to inject an old school `flat` kern table into compiled fonts. 
+KernTableBotox is a command to inject an old school `flat`. kern table into compile fonts.
 It will parse the modern OpenType Kerning data, flatten all the pairs and inject them in a `kern` table. This is mostly useful for PowerPoint kerning support. Yay.
 The number of pairs should not matters, KernTableBotox will create the required subtables. The more pairs you have the bigger the font will get though.
 

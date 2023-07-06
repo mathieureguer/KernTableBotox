@@ -8,7 +8,7 @@ import time
 from fontTools import ttLib
 import click
 
-import input_helpers
+from . import input_helpers
 
 # ----------------------------------------
 # constants
